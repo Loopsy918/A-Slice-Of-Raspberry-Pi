@@ -1,11 +1,3 @@
-/**
-* Template Name: Avilon
-* Template URL: https://bootstrapmade.com/avilon-bootstrap-landing-page-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -473,7 +465,7 @@ h6 {
   background: #fff;
 }
 
-#hero .product-screens {
+#hero .hero-image {
   position: absolute;
   left: 0;
   right: 0;
@@ -481,47 +473,15 @@ h6 {
   overflow: hidden;
   text-align: center;
   width: 100%;
-  height: 50%;
+  height: 60%;
 }
 
-#hero .product-screens img {
-  box-shadow: 0px -2px 19px 4px rgba(0, 0, 0, 0.29);
-}
-
-#hero .product-screens .product-screen-1 {
-  position: absolute;
-  z-index: 30;
-  left: calc(50% + 54px);
-  bottom: 0;
-  top: 30px;
-}
-
-#hero .product-screens .product-screen-2 {
+#hero .hero-image .gold-wheel {
   position: absolute;
   z-index: 20;
-  left: calc(50% - 154px);
+  left: calc(50% - 240px);
   bottom: 0;
-  top: 90px;
-}
-
-#hero .product-screens .product-screen-3 {
-  position: absolute;
-  z-index: 10;
-  left: calc(50% - 374px);
-  bottom: 0;
-  top: 150px;
-}
-
-@media (max-width: 767px) {
-  #hero .product-screens .product-screen-1 {
-    position: static;
-    padding-top: 30px;
-  }
-
-  #hero .product-screens .product-screen-2,
-  #hero .product-screens .product-screen-3 {
-    display: none;
-  }
+  top: 45px;
 }
 
 /*--------------------------------------------------------------
@@ -658,7 +618,7 @@ section {
   font-size: 24px;
 }
 
-#about .content h3 {
+#about .content h1 {
   color: #777;
   font-weight: 300;
   font-size: 18px;
@@ -756,23 +716,32 @@ section {
   padding-bottom: 10px;
 }
 
-/* Product Advanced Featuress Section
+/* Instructions Section
 --------------------------------*/
-#advanced-features {
+#instructions {
+  padding: 60px;
   overflow: hidden;
 }
 
-#advanced-features .features-row {
+#instructions .features-row {
   padding: 60px 0 30px 0;
 }
 
-#advanced-features h2 {
+#instructions .content h1 {
+  color: #777;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: italic;
+}
+
+#instructions h2 {
   font-size: 26px;
   font-weight: 700;
   color: #000;
 }
 
-#advanced-features h3 {
+#instructions h3 {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -780,13 +749,13 @@ section {
   color: #999;
 }
 
-#advanced-features p {
+#instructions p {
   line-height: 24px;
   color: #777;
   margin-bottom: 30px;
 }
 
-#advanced-features i {
+#instructions i {
   color: #666666;
   font-size: 64px;
   transition: 0.5s;
@@ -795,7 +764,7 @@ section {
   line-height: 1;
 }
 
-#advanced-features i:before {
+#instructions i:before {
   background: #1dc8cd;
   background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
   background-clip: border-box;
@@ -803,13 +772,13 @@ section {
   -webkit-text-fill-color: transparent;
 }
 
-#advanced-features .advanced-feature-img-right {
+#instructions .advanced-feature-img-right {
   max-width: 100%;
   float: right;
   padding: 0 0 30px 30px;
 }
 
-#advanced-features .advanced-feature-img-left {
+#instructions .advanced-feature-img-left {
   max-width: 100%;
   float: left;
   padding: 0 30px 30px 0;
@@ -817,16 +786,16 @@ section {
 
 @media (max-width: 768px) {
 
-  #advanced-features .advanced-feature-img-right,
-  #advanced-features .advanced-feature-img-left {
+  #instructions .advanced-feature-img-right,
+  #instructions .advanced-feature-img-left {
     max-width: 50%;
   }
 }
 
 @media (max-width: 767px) {
 
-  #advanced-features .advanced-feature-img-right,
-  #advanced-features .advanced-feature-img-left {
+  #instructions .advanced-feature-img-right,
+  #instructions .advanced-feature-img-left {
     max-width: 100%;
     float: none;
     padding: 0 0 30px 0;
