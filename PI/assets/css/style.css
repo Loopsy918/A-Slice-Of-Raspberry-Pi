@@ -891,19 +891,19 @@ section {
 /* Our Team Section
 --------------------------------*/
 #team {
-  padding: 60px;
+  padding: 30px;
   overflow: visible;
 }
 
 #team .member {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 #team .member2 { 
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 #team .member .pic {
