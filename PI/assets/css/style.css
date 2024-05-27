@@ -777,34 +777,34 @@ section {
 
 
 
-/* Call To Action Section
+/* Leaderboard Section
 --------------------------------*/
-#call-to-action {
+/*#leaderboard {
   overflow: hidden;
   background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
 
-#call-to-action .cta-title {
+#leaderboard .lb-title {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-#call-to-action .cta-text {
+#leaderboard .lb-text {
   color: #fff;
 }
 
 @media (min-width: 769px) {
-  #call-to-action .cta-btn-container {
+  #leaderboard .lb-btn-container {
     display: flex;
     align-items: center;
     justify-content: flex-end;
   }
 }
 
-#call-to-action .cta-btn {
+#leaderboard .lb-btn {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -818,81 +818,17 @@ section {
   color: #fff;
 }
 
-#call-to-action .cta-btn:hover {
+#leaderboard .lb-btn:hover {
   background: #1dc8cd;
   border: 2px solid #1dc8cd;
-}
-
-/* Frequently Asked Questions Section
---------------------------------*/
-#faq {
-  padding: 60px 0;
-  overflow: hidden;
-}
-
-#faq .faq-list {
-  padding: 0;
-  list-style: none;
-}
-
-#faq .faq-list li {
-  border-bottom: 1px solid #f0f0f0;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-}
-
-#faq .faq-list .question {
-  display: block;
-  position: relative;
-  font-family: #1dc8cd;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 400;
-  padding-left: 25px;
-  cursor: pointer;
-  color: #179ca0;
-  transition: 0.3s;
-}
-
-#faq .faq-list i {
-  font-size: 16px;
-  position: absolute;
-  left: 0;
-  top: -2px;
-}
-
-#faq .faq-list p {
-  margin-bottom: 0;
-  padding: 10px 0 0 25px;
-}
-
-#faq .faq-list .icon-show {
-  display: none;
-}
-
-#faq .faq-list .collapsed {
-  color: black;
-}
-
-#faq .faq-list .collapsed:hover {
-  color: #1dc8cd;
-}
-
-#faq .faq-list .collapsed .icon-show {
-  display: inline-block;
-  transition: 0.6s;
-}
-
-#faq .faq-list .collapsed .icon-close {
-  display: none;
-  transition: 0.6s;
-}
+} */
 
 /* Our Team Section
 --------------------------------*/
 #team {
   padding: 30px;
   overflow: visible;
+  background-color: #ffffff;
 }
 
 #team .member {
