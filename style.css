@@ -199,6 +199,10 @@ h6 {
   color: #fff;
 }
 
+.navbar .dropdown {
+  display:none;
+}
+
 .navbar .dropdown ul {
   display: block;
   position: absolute;
